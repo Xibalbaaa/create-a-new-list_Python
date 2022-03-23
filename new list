@@ -1,0 +1,8 @@
+# Vous pouvez mettre dans une liste les elements de l dont la longueur est supérieur à 4 ?
+
+l = ['steve','zak','bernard','nico','tata','juju','toto']
+l2=[]
+for elem in l: 
+    if (len(elem)> 4):
+        l2.append(elem)
+print (l2, "mission completed")
